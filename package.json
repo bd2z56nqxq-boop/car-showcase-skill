@@ -1,0 +1,25 @@
+{
+  "name": "car-showcase-skill",
+  "version": "1.0.0",
+  "description": "Remotion + Three.js interactive car color switcher — a real-time 3D preview tool for automotive color designers",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render CarShowcase out/car-showcase.mp4",
+    "still": "remotion still CarShowcase out/preview.png"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@remotion/cli": "4.0.462",
+    "@remotion/three": "^4.0.462",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.462",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
